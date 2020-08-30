@@ -6,7 +6,8 @@
       "lastName": "Doe",
       "email": "john@gmail.com",
       "age": 34,
-      "companyId": "1"
+      "companyId": "1",
+      "role": "admin"
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "lastName": "Williams",
       "email": "mark@gmail.com",
       "age": 33,
-      "companyId": "1"
+      "companyId": "1",
+      "role": "user"
     },
     {
       "id": "3",
@@ -22,7 +24,8 @@
       "lastName": "Smith",
       "email": "sara@gmail.com",
       "age": 23,
-      "companyId": "2"
+      "companyId": "2",
+      "role": "admin"
     },
     {
       "firstName": "Brad",
@@ -30,24 +33,138 @@
       "age": 35,
       "email": "test@test.com",
       "companyId": "3",
-      "id": "B1Ww3BIS-"
+      "id": "B1Ww3BIS-",
+      "role": "admin"
     }
   ],
   "companies": [
     {
       "id": "1",
       "name": "Apple",
-      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services. ... Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud"
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services. ... Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud",
+      "tableId": "000123"
     },
     {
       "id": "2",
       "name": "Microsoft",
-      "description": "Microsoft Corporation, incorporated on September 22, 1993, is a technology company. The Company develops, licenses, and supports a range of software products, services and devices. The Company's segments include Productivity and Business Processes, Intelligent Cloud and More Personal Computing"
+      "description": "Microsoft Corporation, incorporated on September 22, 1993, is a technology company. The Company develops, licenses, and supports a range of software products, services and devices. The Company's segments include Productivity and Business Processes, Intelligent Cloud and More Personal Computing",
+      "tableId": "000124"
     },
     {
       "id": "3",
       "name": "Google",
-      "description": "Google was founded by Larry Page and Sergey Brin while they were students at Stanford University. The company was officially launched in September, 1998 in a friend's garage. ... The official mission statement of the company is to “organize the world's information and make it universally accessible and useful"
+      "description": "Google was founded by Larry Page and Sergey Brin while they were students at Stanford University. The company was officially launched in September, 1998 in a friend's garage. ... The official mission statement of the company is to “organize the world's information and make it universally accessible and useful",
+      "tableId": "000125"
+    }
+  ],
+  "tables": [
+    {
+      "id": "1",
+      "baseDoc": "044525978",
+      "recipient": "Организация 'Альфа'",
+      "periodicity": "30",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "30",
+      "performanceIndicator": "true",
+      "executor": "Верещагин Б.Н."
+    },
+    {
+      "id": "2",
+      "baseDoc": "044525978",
+      "recipient": "ООО Торговая фирма 'Гермес'",
+      "periodicity": "14",
+      "reportDoc": "044525978",
+      "address": "Думская д2, офис 123",
+      "contact": "Дворецков Александр Сергеевич  8-800-555-35-35",
+      "periodicityRecipient": "14",
+      "performanceIndicator": "true",
+      "executor": "Воротников"
+    },
+    {
+      "id": "3",
+      "baseDoc": "044525978",
+      "recipient": "Сельскохозяйственнй кооператив Око",
+      "periodicity": "50",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "40",
+      "performanceIndicator": "false",
+      "executor": ""
+    },
+    {
+      "id": "4",
+      "baseDoc": "044525978",
+      "recipient": "Организация 'Альфа'",
+      "periodicity": "30",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "30",
+      "performanceIndicator": "true",
+      "executor": "Борис Бояршинов"
+    },
+    {
+      "id": "5",
+      "baseDoc": "044525978",
+      "recipient": "ООО Торговая фирма 'Гермес'",
+      "periodicity": "14",
+      "reportDoc": "044525978",
+      "address": "Думская д2, офис 123",
+      "contact": "Дворецков Александр Сергеевич  8-800-555-35-35",
+      "periodicityRecipient": "14",
+      "performanceIndicator": "true",
+      "executor": "Воротников"
+    },
+    {
+      "id": "6",
+      "baseDoc": "044525978",
+      "recipient": "Сельскохозяйственнй кооператив Око",
+      "periodicity": "50",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "40",
+      "performanceIndicator": "false",
+      "executor": "Борис Бояршинов"
+    },
+    {
+      "id": "7",
+      "baseDoc": "044525978",
+      "recipient": "Организация 'Альфа'",
+      "periodicity": "30",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "30",
+      "performanceIndicator": "true",
+      "executor": "Верещагин Б.Н."
+    },
+    {
+      "id": "8",
+      "baseDoc": "044525978",
+      "recipient": "ООО Торговая фирма 'Гермес'",
+      "periodicity": "14",
+      "reportDoc": "044525978",
+      "address": "Думская д2, офис 123",
+      "contact": "Дворецков Александр Сергеевич  8-800-555-35-35",
+      "periodicityRecipient": "14",
+      "performanceIndicator": "true",
+      "executor": "Воротников"
+    },
+    {
+      "id": "9",
+      "baseDoc": "044525978",
+      "recipient": "Сельскохозяйственнй кооператив Око",
+      "periodicity": "50",
+      "reportDoc": "044525978",
+      "address": "Багратионовский пр-д, д.7 стр.33, к2, офис 228",
+      "contact": "Иванов Г.В.  8-800-555-35-35",
+      "periodicityRecipient": "40",
+      "performanceIndicator": "false",
+      "executor": ""
     }
   ]
 }
